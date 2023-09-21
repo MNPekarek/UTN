@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+ <title>Mi Página Web</title>
+</head>
+<body>
+ <header>
+ <h1>Bienvenidos a Mi Página Web</h1>
+ <nav>
+    <ul>
+        <li><a href="#acerca de mi">Acerca de mí</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#formulario">Contáctame</a></li>
+    </ul>
+ </nav>
+ </header>
+ <section id="acerca de mi">
+ <h2>Acerca de mí</h2>
+ <p>Mi nombre es Matías Nicolás Pekarek. Soy un apasionado del desarrollo web.</p>
+ <img src="tu_foto.jpg" alt="Tu foto aquí" width="200"> 
+ </section>
+ <section id="educacion">
+    <h2>Educación</h2>
+    <ul>
+        <li>Universidad Nacional de Villa María, Contador Público 3 años.
+        <li>Open English, curso de Inglés.</li>
+        <li>Universidad tecnólogica Nacional, curso de Frontend. </li>
+        </li>
+    </ul>
+ </section>
+ <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ol>
+        <li>Inglés</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>    
+    </ol> 
+ </section>
+<section id="proyectos">
+    <h2>Proyectos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre del Proyecto</th>
+                <th>Fecha</th>
+                <th>Lenguajes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Proyecto 1</td>
+                <td>2022</td>
+                <td>HTML, CSS</td>
+            </tr>
+            <tr>
+                <td>Proyecto 2</td>
+                <td>2021</td>
+                <td>HTML, JavaScript</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+ <section id="contacto">
+    <h2>Contacto</h2>
+    <address>
+        Correo electrónico: <a href="matiaspekarek@gmail.com"> matiaspekarek@gmail.com</a><br>
+        Telefono: <a href="tel:+1234567890">+1 234 567 890</a>
+    </address>
+ </section>
+ <section id="formulario">
+    <h2>Contáctame</h2>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="correo" name="correo"><br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="asunto"><br>
+
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto"><br>
+
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="4"></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+ </section>
+ <footer>
+ <p>Copyright 2023</p>
+ </footer>
+</body>
+</html>
