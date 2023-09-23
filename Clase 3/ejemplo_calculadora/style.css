@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+}
+
+button {
+    color: white;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 4px;
+
+}
+
+button:hover {
+    background-color: red;    
+}
+
+
+input {
+    width: 10%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
