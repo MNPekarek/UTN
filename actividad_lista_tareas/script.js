@@ -52,6 +52,7 @@ document.getElementById("listaTareas").addEventListener("click",function(event) 
 
 
 
+
 // Función para mostrar tareas completadas
 function mostrarCompletadas() {
     const tareas = document.querySelectorAll("li");
